@@ -1,0 +1,63 @@
+
+/* TOP UI */
+
+.menu{
+    
+    background-color: antiquewhite;
+    margin: auto;
+    width: 98%;
+    padding: 1%;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.myButton{     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    font-size: larger;
+    padding: 15px;
+}
+
+/* media */
+
+.mImage{
+    padding-left: 35px;
+}
+
+
+/* making a table */
+.LinksTable{
+    font-family: arial, sans-serif;
+    border: black;
+    border: solid;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.AvRR{
+    background-color: bisque;
+    font-weight: bold;
+}
+
+.LAvRR{
+    background-color: rgb(216, 216, 216);
+}
+
+
+/* Register */
+.box{background-color: lightcyan;}
+
+/* contacts */
+.message{
+    height: 150px;
+    width: 250px;
+
+}
+    

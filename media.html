@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="description" content="My Homework site">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Alexander Savov">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML links, Media and forms</title>
+    <link rel="icon" type="image//x-icon" href="images/html5.png">
+    <!-- links -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    </head>
+    <body>
+            <!-- NAV BAR -->
+        <nav class="menu">
+            <button onclick="location.href = 'index.html';" class="myButton" class="float-left submit-button" >Home</button>
+            <button onclick="location.href = 'media.html';" class="myButton" class="float-left submit-button" >Media</button>
+            <button onclick="location.href = 'links.html';" class="myButton" class="float-left submit-button" >Links</button>
+            <button onclick="location.href = 'stylesheet.html';" class="myButton" class="float-left submit-button" >Stylesheet</button>
+            <button onclick="location.href = 'register.html';" class="myButton" class="float-left submit-button" >Register</button>
+            <button onclick="location.href = 'contact.html';" class="myButton" class="float-left submit-button" >Contact</button>
+        </nav>
+        <!-- -------------------------------------- -->
+        <div>
+            <h1>Media</h1>
+            <p>Files like audio, video and other files can be added in HTML5. External links can be integrated
+                in a webpage. Details about the media files can be found in this page.</p>
+            <hr>
+        </div>
+        
+        <div></div>
+            <h1>Embed Images</h1>
+            <p>Images can be integrated with their captions.</p>
+            <!-- Image is a bit streched because I like it this way -->
+            
+            <img class="mImage" src="images/landscape-mountains.jpg" alt="the mountains of Austria" width="400" height="200"  >
+            <p class="mImage">A beutiful scenery of mountains in Austria</p>
+            
+            <hr>
+        </div>
+        <div>
+            <h1>Integrate Videos</h1>
+            <p>Videos can be integrated in web pages. Local or External videos (online videos) can
+                be integrated</p>
+                
+                <div>
+                    <h2>Integrating local videos</h2>
+                        <video width="320" height="240" controls>
+                            <source src="video/file_example_MP4_480_1_5MG.mp4" type="video/mp4" alt="This is a video of the earth spinning. Looks beutiful">
+                        </video> 
+
+                      <video width="320" height="240" controls>
+                        <source src="video/video(2160p).mp4" type="video/mp4" alt="A video of some people having a picnic outside. They are happy.">
+                      </video>
+                    
+                </div>
+                <div>
+                    <h2>Integrate external Videos</h2>
+                    <p>A sample music video is which is online is bellow.</p>
+                    <iframe width="320 " height="240" src="https://www.youtube.com/embed/sXC6AUbY69A" 
+                        title="ADHD Relief Music: Polyrhythmic Music for Focus and Studying" frameborder="0"  alt="This is an audio for the people with ADHD."
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                    <hr>
+                </div>
+                <div>
+                    <h2>Include other sites</h2>
+                    <p>Details on the media files can be found in this site <a href="media.html">Click here</a> tonavigate to Media</p>
+
+                    <!-- make a new links html without the top bar??????? -->
+                    <iframe width="700" height="300" src="windowMedia.htm" frameborder="1"></iframe>
+                </div>
+                <div>
+                    <h2>Integrate PDF file</h2>
+                    <p>Further guidelines and links for tutorials can be found in this file.</p>
+                    <iframe width="700" height="300" src="pdf/Paudel_Integratng-Audio-and-Video-in-html.pdf" frameborder="2"></iframe>
+
+                    <p><a href="pdf/Paudel_Integratng-Audio-and-Video-in-html.pdf" download="newFilenName.pdf">Click here</a> to download the document</p>
+                    
+                </div>
+        </div>
+
+        
+    </body>
+</html>
